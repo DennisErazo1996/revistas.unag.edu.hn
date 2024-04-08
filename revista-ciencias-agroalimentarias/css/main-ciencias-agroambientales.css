@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat" !important;
+}
+
+:root {
+  /* Colores */
+  --verde: #1ba333;
+  --amarillo: #ffcc00;
+  --amarillo07: rgba(255, 204, 0, 0.7);
+  --azul: #203b76;
+  --verdeOscuro: #135423;
+  --verdeClaro: #d3eed7;
+  --cafe: #5b3700;
+  --azulClaro: #0094e9;
+  --blanco: #fff;
+  --blancoE: #eee;
+  --blancoE5: #e5e5e5;
+  --blancoC: #ccc;
+  --negro: #000;
+  --gris6: #666;
+  --gris9: #999;
+  --rojo: #ff0000;
+  --colorTexto: #303030;
+}
+
+img.logo-revista {
+  width: 200px;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+}
+
+.uk-button-primary {
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--verde) !important;
+}
+
+li.hover-menu:hover {
+  color: white !important;
+  background-color: var(--verde);
+}
+
+ul.uk-navbar-nav li a:hover {
+  color: white !important;
+}
+
+p.descripcion-slider {
+  color: white;
+  display: block;
+  max-width: 500px;
+}
+
+.titulo-descripcion-slider,
+.titulo, .page-title {
+  font-weight: 800 !important;
+}
+
+div.overlay {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 90%
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.uk-navbar-nav > li > a {
+  width: 100px;
+  text-transform: none;
+}
+div.nav-line {
+  width: 100%;
+  height: 5px;
+  background-color: var(--verde);
+}
+
+.uk-list-primary > ::before {
+  color: var(--verde) !important;
+}
+
+img.icono-eje,
+img.icono-equipo {
+  width: 55px;
+}
+
+section#equipo-section {
+  /* height: 100px; */
+  background-color: #f8f8f8;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: var(--verdeOscuro);
+  align-items: center;
+  width: 100%;
+  height: 85px;
+  background-color: var(--verde);
+  color: white;
+}
+
+img#hoja1 {
+  position: absolute;
+  z-index: 2;
+  margin-left: -60px;
+  width: 15.8rem;
+}
+
+img#hoja2 {
+  position: absolute;
+  z-index: 2;
+  top: 320px;
+  right: -180px;
+  width: 20.8rem;
+  transform: rotate(120deg);
+}
+
+img#hoja3 {
+  position: absolute;
+  z-index: 2;
+  bottom: 320px;
+  left: -200px;
+  width: 26.8rem;
+  transform: rotate(30deg);
+}
+
+section#slider {
+  overflow: hidden;
+}
+
+

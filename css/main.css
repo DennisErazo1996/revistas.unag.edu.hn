@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* Colores */
+  --verde: #1ba333;
+  --amarillo: #ffcc00;
+  --amarillo07: rgba(255, 204, 0, 0.7);
+  --azul: #203b76;
+  --verdeOscuro: #135423;
+  --verdeClaro: #d3eed7;
+  --cafe: #5b3700;
+  --azulClaro: #0094e9;
+  --blanco: #fff;
+  --blancoE: #eee;
+  --blancoE5: #e5e5e5;
+  --blancoC: #ccc;
+  --negro: #000;
+  --gris6: #666;
+  --gris9: #999;
+  --rojo: #ff0000;
+  --colorTexto: #303030;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  font-family: "Montserrat" !important;
+}
+
+a.uk-logo {
+  width: 300px;
+}
+
+.uk-button-primary {
+  background-color: var(--verde) !important;
+}
+
+nav {
+  position: absolute;
+  z-index: 100;
+  width: 100vw;
+  height: 250px;
+}
+
+div.background {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1508256638959-56984bf03826?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+div.background div.slider {
+  display: flex;
+  position: absolute;
+  border-radius: 30px;
+  height: 80vh !important;
+  width: 90vw !important;
+  background-color: #2e2e2eca;
+  overflow: hidden;
+}
+
+div.info-revista {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+div.revista-container {
+  background-color: var(--amarillo);
+  width: 100px;
+  text-align: center;
+  font-weight: 800;
+  color: #404040;
+}
+
+h1.titulo-revista {
+  color: white;
+  font-weight: 800;
+  font-size: 65px;
+}
+
+span.descripcion-container {
+  display: block;
+  color: red;
+  width: 60%;
+}
+
+p.descripcion-revista {
+  color: white;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+div.slider {
+  overflow: hidden;
+}
+
+img#hoja1 {
+  position: absolute;
+  z-index: 2;
+  margin-left: -60px;
+  width: 15.8rem;
+}
+
+img#hoja2 {
+  position: absolute;
+  z-index: 2;
+  top: 120px;
+  right: -40px;
+  width: 26.8rem;
+  transform: rotate(120deg);
+}
+
+img#logo-revista-ciencias-agroambientales {
+  position: absolute;
+  width: 300px;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

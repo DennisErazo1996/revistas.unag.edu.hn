@@ -1,0 +1,79 @@
+@media screen and (max-width: 280px) {
+  img#logo-revista-ciencias-agroambientales {
+    bottom: 5px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  img#logo-revista-ciencias-agroambientales {
+    position: absolute;
+    width: 10px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  a.uk-logo {
+    width: 200px;
+  }
+
+  h1.titulo-revista {
+    color: white;
+    font-weight: 800;
+    font-size: 19px;
+  }
+
+  span.descripcion-container {
+    display: block;
+    color: red;
+    width: 70%;
+  }
+
+  p.descripcion-revista {
+    font-size: 12px;
+  }
+
+  img#hoja1 {
+    margin-left: -60px;
+    width: 10.8rem;
+  }
+
+  img#hoja2 {
+    top: 300px;
+    right: -70px;
+    width: 9.8rem;
+  }
+
+  img#logo-revista-ciencias-agroambientales {
+    position: absolute;
+    width: 200px;
+    bottom: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+    img#hoja2 {
+        top: 300px;
+        right: -90px;
+        width: 19.8rem;
+      }
+
+      h1.titulo-revista {
+        font-size: 35px;
+      }
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+    h1.titulo-revista {
+        font-size: 50px;
+    }
+}
