@@ -37,9 +37,9 @@
                         <li class="hover-menu inicio"><a href="./">Inicio</a></li>
                         <li class="hover-menu"><a href="./acerca-de.php">Acerca de</a></li>
                         <li class="hover-menu">
-                            <a href="#">Ediciones</a>
+                            <a href="./ediciones.php">Ediciones</a>
                         </li>
-                        <li class="hover-menu"><a href="#">Portal UNAG</a></li>
+                        <li class="hover-menu"><a href="https://portal.unag.edu.hn">Portal UNAG</a></li>
                         <li class="hover-menu"><a href="../">Revistas</a></li>
                     </ul>
 
@@ -69,8 +69,9 @@
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li class="uk-active"><a href="./">Inicio</a></li>
                             <li class=""><a href="./acerca-de.php">Acerca de</a></li>
-                            <li><a href="#">Ediciones</a></li>
-                            <li><a href="#">Portal UNAG</a></li>
+                            <li><a href="./ediciones.php">Ediciones</a></li>
+                            <li><a href="https://portal.unag.edu.hn">Portal UNAG</a></li>
+                            <li class="hover-menu"><a href="../">Revistas</a></li>
                         </ul>
                     </div>
                 </div>
